@@ -1,16 +1,35 @@
 body {
-
+  background-color: #b3d0db;
+  font-family: sans-serif;
 }
 
 #header-image {
   height: 300px;
 }
 
+h1 {
+  text-transform: uppercase;
+}
+
 .column {
   width: 300px;
   float: left;
+  margin: 5px;
+  padding: 10px;
 }
 
 .col-image {
   width: 300px;
+}
+
+#col-left {
+  background-color: orange;
+}
+
+#col-mid {
+  background-color: #83bf48;
+}
+
+#col-right {
+  background-color: #fff;
 }
